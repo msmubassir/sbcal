@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Days</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+        }
+        .button-container {
+            display: grid;
+            gap: 20px;
+            grid-template-columns: repeat(2, 1fr);
+        }
+        .button {
+            padding: 15px 30px;
+            font-size: 18px;
+            font-weight: bold;
+            border: none;
+            cursor: pointer;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border-radius: 8px;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+        }
+        .button:hover {
+            transform: translateY(-5px);
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+        }
+        .button-1 {
+            background-color: #3498db;
+        }
+        .button-1:hover {
+            background-color: #2980b9;
+        }
+        .button-2 {
+            background-color: #2ecc71;
+        }
+        .button-2:hover {
+            background-color: #27ae60;
+        }
+        .button-3 {
+            background-color: #e74c3c;
+        }
+        .button-3:hover {
+            background-color: #c0392b;
+        }
+        .button-4 {
+            background-color: #f1c40f;
+        }
+        .button-4:hover {
+            background-color: #f39c12;
+        }
+    </style>
+</head>
+<body>
+    <div class="button-container">
+        <a href="28day.html" class="button button-1">28 Days</a>
+        <a href="29day.html" class="button button-2">29 Days</a>
+        <a href="30day.html" class="button button-3">30 Days</a>
+        <a href="31day.html" class="button button-4">31 Days</a>
+    </div>
+</body>
+</html>
